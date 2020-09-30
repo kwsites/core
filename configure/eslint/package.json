@@ -1,6 +1,6 @@
 {
   "name": "@kwsites/configure-eslint",
-  "version": "1.0.0-alpha",
+  "version": "2.0.0-alpha.0",
   "main": ".eslintrc.json",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.2.0",

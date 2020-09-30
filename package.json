@@ -1,13 +1,16 @@
 {
   "name": "@kwsites/core",
-  "version": "1.0.0-alpha",
+  "version": "2.0.0-alpha.0",
   "private": true,
   "workspaces": [
-    "configure/*"
+    "configure/*",
+    "packages/*"
   ],
   "scripts": {
     "bootstrap": "yarn && lerna bootstrap",
-    "lerna:run": "lerna run"
+    "clean": "git clean -fxd -e .idea",
+    "lerna:run": "lerna run",
+    "lerna:publish": "lerna publish"
   },
   "dependencies": {},
   "devDependencies": {

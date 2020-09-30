@@ -1,6 +1,6 @@
 {
   "name": "@kwsites/configure-jest",
-  "version": "1.0.0-alpha",
+  "version": "2.0.0-alpha.0",
   "main": "jest.config.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",

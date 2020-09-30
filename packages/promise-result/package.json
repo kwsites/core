@@ -1,0 +1,33 @@
+{
+  "name": "@kwsites/promise-result",
+  "version": "2.0.0-alpha.0",
+  "description": "Utility to transform any promise into its fulfilled value whether it resolved or rejected.",
+  "author": "Steve King <steve@mydev.co>",
+  "contributors": [
+    {
+      "name": "Steve King",
+      "email": "steve@mydev.co"
+    }
+  ],
+  "main": "./dist/index",
+  "types": "./dist/index",
+  "license": "MIT",
+  "repository": "git://github.com/kwsites/core.git",
+  "devDependencies": {
+    "@kwsites/configure-babel": "1.0.0-alpha.0",
+    "@kwsites/configure-eslint": "1.0.0-alpha.0",
+    "@kwsites/configure-jest": "1.0.0-alpha.0",
+    "@kwsites/configure-typescript": "1.0.0-alpha.0",
+    "@types/jest": "^26.0.10",
+    "@types/node": "^14.0.27"
+  },
+  "files": [
+    "LICENSE",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "lint": "eslint --ext .ts .",
+    "test": "jest --coverage"
+  }
+}

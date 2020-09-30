@@ -1,0 +1,8 @@
+{
+  "name": "@kwsites/configure-typescript",
+  "version": "1.0.0-alpha",
+  "main": "./typescript.config.json",
+  "peerDependencies": {
+    "typescript": "^4.0.3"
+  }
+}

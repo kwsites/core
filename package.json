@@ -1,0 +1,18 @@
+{
+  "name": "@kwsites/core",
+  "version": "1.0.0-alpha",
+  "private": true,
+  "workspaces": [
+    "configure/*"
+  ],
+  "scripts": {
+    "bootstrap": "yarn && lerna bootstrap",
+    "lerna:run": "lerna run"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.3"
+  }
+}

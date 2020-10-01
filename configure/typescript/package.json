@@ -4,5 +4,8 @@
   "main": "./typescript.config.json",
   "peerDependencies": {
     "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "@types/node": "^14.11.2"
   }
 }

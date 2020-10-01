@@ -1,0 +1,11 @@
+{
+  "name": "@kwsites/eslint-plugin",
+  "version": "2.0.0-alpha.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "eslint": "^7.10.0"
+  }
+}

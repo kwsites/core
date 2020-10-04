@@ -1,0 +1,36 @@
+{
+  "name": "@kwsites/promise-deferred",
+  "version": "2.0.0-alpha.0",
+  "description": "Minimalist creation of promise wrappers, exposing the ability to resolve or reject the inner promise",
+  "author": "Steve King <steve@mydev.co>",
+  "contributors": [
+    {
+      "name": "Steve King",
+      "email": "steve@mydev.co"
+    }
+  ],
+  "main": "./src/index.ts",
+  "license": "MIT",
+  "repository": "git://github.com/kwsites/core.git",
+  "devDependencies": {
+    "@kwsites/configure-babel": "2.0.0-alpha.0",
+    "@kwsites/eslint-plugin": "2.0.0-alpha.0",
+    "@kwsites/configure-jest": "2.0.0-alpha.0",
+    "@kwsites/configure-typescript": "2.0.0-alpha.0"
+  },
+  "files": [
+    "LICENSE",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "lint": "eslint --ext .ts .",
+    "test": "jest --coverage"
+  },
+  "eslintConfig": {
+    "extends": "plugin:@kwsites/default"
+  },
+  "jest": {
+    "preset": "@kwsites/configure-jest"
+  }
+}

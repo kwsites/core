@@ -9,8 +9,10 @@
     "bootstrap": "yarn && lerna bootstrap",
     "clean": "git clean -fxd -e .idea -e node_modules",
     "clean:all": "git clean -fxd -e .idea",
+    "lerna:publish": "lerna publish",
     "lerna:run": "lerna run",
-    "lerna:publish": "lerna publish"
+    "lerna:test": "lerna run test --stream",
+    "test": "node ./scripts/ws-run"
   },
   "dependencies": {},
   "devDependencies": {

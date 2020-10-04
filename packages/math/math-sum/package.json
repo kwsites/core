@@ -1,7 +1,7 @@
 {
-  "name": "@kwsites/promise-cache",
+  "name": "@kwsites/math-sum",
   "version": "2.0.0-alpha.0",
-  "description": "Minimalist cache of un-rejected promises with configured TTL",
+  "description": "Gets the sum of values",
   "author": "Steve King <steve@mydev.co>",
   "contributors": [
     {
@@ -11,10 +11,11 @@
   ],
   "main": "./src/index",
   "license": "MIT",
+  "keywords": [
+    "math",
+    "sum"
+  ],
   "repository": "git://github.com/kwsites/core.git",
-  "dependencies": {
-    "@kwsites/promise-deferred": "^1.1.1"
-  },
   "devDependencies": {
     "@kwsites/configure-babel": "2.0.0-alpha.0",
     "@kwsites/configure-jest": "2.0.0-alpha.0",

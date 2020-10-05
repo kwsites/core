@@ -1,0 +1,40 @@
+{
+  "name": "@kwsites/math-bisect",
+  "version": "2.0.0-alpha.0",
+  "description": "Bisect an array to determine the insertion point of a value",
+  "author": "Steve King <steve@mydev.co>",
+  "contributors": [
+    {
+      "name": "Steve King",
+      "email": "steve@mydev.co"
+    }
+  ],
+  "main": "./src/index",
+  "license": "MIT",
+  "keywords": [
+    "math",
+    "bisect",
+    "array"
+  ],
+  "repository": "git://github.com/kwsites/core.git",
+  "devDependencies": {
+    "@kwsites/configure-babel": "2.0.0-alpha.0",
+    "@kwsites/configure-jest": "2.0.0-alpha.0",
+    "@kwsites/configure-typescript": "2.0.0-alpha.0",
+    "@kwsites/eslint-plugin": "2.0.0-alpha.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "lint": "eslint --ext .ts .",
+    "test": "jest --coverage"
+  },
+  "eslintConfig": {
+    "extends": "plugin:@kwsites/default"
+  },
+  "jest": {
+    "preset": "@kwsites/configure-jest"
+  }
+}

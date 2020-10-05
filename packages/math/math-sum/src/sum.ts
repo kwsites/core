@@ -1,5 +1,4 @@
-type MaybeNumber = number | unknown;
-type MaybeNumbers = MaybeNumber[];
+import { MaybeNumber, MaybeNumbers } from './types';
 
 export function sum(...numbers: MaybeNumbers): number;
 export function sum(numbers: MaybeNumbers): number;

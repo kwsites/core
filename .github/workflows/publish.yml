@@ -1,0 +1,23 @@
+name: Publish to NPM
+
+on:
+   push:
+      branches: ['master']
+
+jobs:
+   publish:
+      runs-on: ubuntu-latest
+      steps:
+         - uses: actions/checkout@v2
+           with:
+              ref: master
+         - uses: actions/setup-node@v1
+           with:
+              node-version: 14
+         - name: Dependencies
+           run: yarn bootstrap
+         - uses: smartlyio/lerna-publish-action@v2
+           with:
+              bump: minor
+           env:
+              NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}

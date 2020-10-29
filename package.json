@@ -3,7 +3,7 @@
   "version": "2.0.0-alpha.0",
   "private": true,
   "workspaces": [
-    "packages/**"
+    "packages/configure/*"
   ],
   "scripts": {
     "bootstrap": "yarn && lerna bootstrap",

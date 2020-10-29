@@ -16,7 +16,7 @@ jobs:
               node-version: 14
          - name: Dependencies
            run: yarn bootstrap
-         - uses: ./actions/publish
+         - uses: ./.github/actions/publish
            with:
               bump: minor
            env:

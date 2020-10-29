@@ -1,0 +1,26 @@
+name: 'Lerna Publish'
+description: 'Publish repositories managed with Lerna'
+inputs:
+   bump:
+      description: "Semver value to bump. Values major|minor|patch"
+      required: true
+   registry:
+      description: "Target publish registry"
+      default: "https://registry.npmjs.org/"
+      required: false
+   extra_arguments:
+      description: "Extra arguments for Lerna"
+      required: false
+      default: ''
+   email:
+      description: "Git email for the version commit"
+      required: false
+      default: 'bot@kwsites'
+   username:
+      description: 'Git username for the version commit'
+      required: false
+      default: 'kwsites action'
+outputs: {}
+runs:
+   using: 'docker'
+   image: 'Dockerfile'

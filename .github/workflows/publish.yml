@@ -16,9 +16,8 @@ jobs:
               node-version: 14
          - name: Dependencies
            run: yarn bootstrap
-         - uses: smartlyio/lerna-publish-action@v2
+         - uses: ./actions/publish
            with:
               bump: minor
            env:
-              AUTH_TOKEN_STRING:
               NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}

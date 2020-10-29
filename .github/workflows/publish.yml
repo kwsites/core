@@ -20,5 +20,5 @@ jobs:
            with:
               bump: minor
            env:
-              AUTH_TOKEN_STRING: ${{ format('//registry.npmjs.org/:_authToken={0}', secrets.NPM_AUTH_TOKEN) }}
+              AUTH_TOKEN_STRING:
               NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}

@@ -15,11 +15,11 @@ inputs:
    email:
       description: "Git email for the version commit"
       required: false
-      default: 'bot@kwsites'
+      default: 'actions@users.noreply.github.com'
    username:
       description: 'Git username for the version commit'
       required: false
-      default: 'kwsites action'
+      default: 'kwsites publish action'
 outputs: {}
 runs:
    using: 'docker'

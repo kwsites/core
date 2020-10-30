@@ -11,13 +11,17 @@ fi
 # Generate environment variables
 REMOTE_REPO="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
-# Ensure required files exist
-touch ~/.npmrc
+# Configure the root user's npmrc file
+NPM_CONFIG_FILE="${NPM_CONFIG_FILE-"$HOME/.npmrc"}"
+NPM_HOST="${NPM_HOST-registry.npmjs.org}"
+NPM_STRICT_SSL="${NPM_STRICT_SSL-true}"
+NPM_SCHEMA="https"
+if ! $NPM_STRICT_SSL; then
+ NPM_SCHEMA="http"
+fi
 
-# Setup SSH keys so we can push lerna commits and tags to master branch
-
-# The script is run as root so we need to allow npm to execute scripts as root.
-echo "unsafe-perm = true" >> ~/.npmrc
+printf "//%s/:_authToken=%s\\nregistry=%s\\nstrict-ssl=%s" "$NPM_HOST" "$NPM_AUTH_TOKEN" "${NPM_SCHEMA}://$NPM_HOST" "${NPM_STRICT_SSL}" > "$NPM_CONFIG_FILE"
+chmod 0600 "$NPM_CONFIG_FILE"
 
 # Configure source control
 git config http.sslVerify false
@@ -29,7 +33,6 @@ git show-ref
 git fetch kwsites --unshallow --tags
 
 git branch --verbose
-git remote --verbose
 
 git status
 

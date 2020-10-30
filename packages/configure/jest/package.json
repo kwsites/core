@@ -2,6 +2,9 @@
   "name": "@kwsites/configure-jest",
   "version": "2.0.0-alpha.0",
   "main": "jest-preset.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@types/jest": "^26.0.14",

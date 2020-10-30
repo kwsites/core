@@ -2,6 +2,9 @@
   "name": "@kwsites/configure-typescript",
   "version": "2.0.0-alpha.0",
   "main": "./typescript.config.json",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "typescript": "^4.0.3"
   },

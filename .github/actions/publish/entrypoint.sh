@@ -9,7 +9,7 @@ then
 fi
 
 # Generate environment variables
-$REMOTE_REPO="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+REMOTE_REPO="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
 # Ensure required files exist
 touch ~/.npmrc

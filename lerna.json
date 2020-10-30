@@ -14,5 +14,6 @@
       "preid": "alpha",
       "access": "public"
     }
-  }
+  },
+  "loglevel": "verbose"
 }

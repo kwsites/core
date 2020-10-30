@@ -1,6 +1,6 @@
 {
   "name": "@kwsites/configure-babel",
-  "version": "2.0.0-alpha.0",
+  "version": "2.0.0",
   "main": "babel.config.js",
   "publishConfig": {
     "access": "public"

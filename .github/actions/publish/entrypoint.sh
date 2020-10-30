@@ -45,3 +45,4 @@ node_modules/.bin/lerna publish --git-remote=kwsites --registry=$INPUT_REGISTRY 
 echo "tags"
 git tag
 git status
+git push kwsites HEAD --tags

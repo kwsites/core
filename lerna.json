@@ -13,6 +13,9 @@
       "canary": true,
       "preid": "alpha",
       "access": "public"
+    },
+    "version": {
+      "allowBranch": "master"
     }
   },
   "loglevel": "verbose"

@@ -34,7 +34,12 @@ git fetch kwsites --unshallow --tags
 
 git branch --verbose
 
+git tag
 git status
 
 # Run lerna
+#node_modules/.bin/lerna version --git-remote=kwsites --registry=$INPUT_REGISTRY --yes $INPUT_BUMP
 node_modules/.bin/lerna publish $INPUT_EXTRA_ARGUMENTS --git-remote=kwsites --registry=$INPUT_REGISTRY --yes $INPUT_BUMP
+
+git tag
+git status

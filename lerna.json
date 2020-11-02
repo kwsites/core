@@ -3,7 +3,8 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "packages": [
-    "packages/configure/*"
+    "packages/configure/*",
+    "packages/math/*"
   ],
   "command": {
     "bootstrap": {
@@ -12,8 +13,6 @@
       ]
     },
     "publish": {
-      "canary": true,
-      "preid": "alpha",
       "access": "public"
     },
     "version": {

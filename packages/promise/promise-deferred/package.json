@@ -13,10 +13,10 @@
   "license": "MIT",
   "repository": "git://github.com/kwsites/core.git",
   "devDependencies": {
-    "@kwsites/configure-babel": "2.0.0-alpha.0",
-    "@kwsites/eslint-plugin": "2.0.0-alpha.0",
-    "@kwsites/configure-jest": "2.0.0-alpha.0",
-    "@kwsites/configure-typescript": "2.0.0-alpha.0"
+    "@kwsites/configure-babel": "2.0.0",
+    "@kwsites/eslint-plugin": "2.0.0",
+    "@kwsites/configure-jest": "2.0.0",
+    "@kwsites/configure-typescript": "2.0.0"
   },
   "files": [
     "LICENSE",

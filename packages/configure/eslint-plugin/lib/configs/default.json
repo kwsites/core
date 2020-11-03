@@ -11,7 +11,7 @@
     "tsconfigRootDir": ".",
     "warnOnUnsupportedTypeScriptVersion": true
   },
-  "ignorePatterns": ["**/*.d.ts", "**/*.js", "**/*.json", "__mocks__", "@types", "node_modules", "dist", "coverage"],
+  "ignorePatterns": ["**/*.d.ts", "**/*.json", "__mocks__", "@types", "node_modules", "dist", "coverage"],
   "plugins": ["import", "prettier", "jest", "@kwsites"],
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",

@@ -1,9 +1,10 @@
 {
   "name": "@kwsites/core",
-  "version": "2.0.0-alpha.0",
+  "version": "2.0.0",
   "private": true,
   "workspaces": [
-    "packages/configure/*"
+    "packages/configure/*",
+    "packages/math/*"
   ],
   "scripts": {
     "bootstrap": "yarn && lerna bootstrap",

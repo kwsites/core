@@ -1,12 +1,12 @@
 {
   "name": "@kwsites/eslint-config",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "main": ".eslintrc.json",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@kwsites/eslint-plugin": "^2.0.0",
+    "@kwsites/eslint-plugin": "^2.1.0",
     "@typescript-eslint/eslint-plugin": "^4.2.0",
     "@typescript-eslint/parser": "^4.2.0",
     "eslint": "^7.10.0",

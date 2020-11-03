@@ -1,6 +1,6 @@
 {
   "name": "@kwsites/math-bisect",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "main": "./src/index",
   "publishConfig": {
     "access": "public"
@@ -24,7 +24,7 @@
     "@kwsites/configure-babel": "^2.0.0",
     "@kwsites/configure-jest": "^2.0.0",
     "@kwsites/configure-typescript": "^2.0.0",
-    "@kwsites/eslint-plugin": "^2.0.0"
+    "@kwsites/eslint-plugin": "^2.1.0"
   },
   "files": [
     "dist"

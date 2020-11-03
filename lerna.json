@@ -16,7 +16,7 @@
       "access": "public"
     },
     "version": {
-      "allowBranch": "master"
+      "allowBranch": "main"
     }
   },
   "loglevel": "verbose"

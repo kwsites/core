@@ -1,4 +1,4 @@
-import { sum, sumBy, sumOf } from '.';
+import { sum, sumBy, sumOf } from '../src';
 
 describe('package export', () => {
    it('adds alias for sum => sumOf', () => {

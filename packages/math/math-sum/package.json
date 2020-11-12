@@ -3,7 +3,9 @@
   "version": "2.1.0",
   "main": "./src/index",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "main": "./dist/index",
+    "typings": "./dist/index"
   },
   "description": "Gets the sum of values",
   "author": "Steve King <steve@mydev.co>",

@@ -1,4 +1,4 @@
-import { bisect } from './bisect';
+import { bisect } from '../src/bisect';
 
 describe('bisect', () => {
    it('inserts before first value', () => {

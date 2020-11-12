@@ -1,4 +1,4 @@
-import { sumBy } from './sum-by';
+import { sumBy } from '../src';
 
 describe('sum-by', () => {
    it('sums', () => {

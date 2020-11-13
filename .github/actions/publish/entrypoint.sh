@@ -39,6 +39,7 @@ git tag
 git status
 
 # Run lerna
+node_modules/.bin/lerna run build --since
 node_modules/.bin/lerna version --git-remote=kwsites --yes $INPUT_BUMP
 node_modules/.bin/lerna publish --git-remote=kwsites --registry=$INPUT_REGISTRY --yes from-git
 

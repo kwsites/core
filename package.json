@@ -12,8 +12,7 @@
     "clean:all": "git clean -fxd -e .idea",
     "lerna:publish": "lerna publish",
     "lerna:run": "lerna run",
-    "lerna:test": "lerna run test --stream",
-    "preversion": "yarn clean && lerna run build --since"
+    "lerna:test": "lerna run test --stream"
   },
   "devDependencies": {
     "lerna": "^3.22.1",

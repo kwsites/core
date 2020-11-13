@@ -1,6 +1,5 @@
 {
   "name": "@kwsites/core",
-  "version": "2.0.0",
   "private": true,
   "workspaces": [
     "packages/configure/*",
@@ -13,9 +12,8 @@
     "lerna:publish": "lerna publish",
     "lerna:run": "lerna run",
     "lerna:test": "lerna run test --stream",
-    "test": "node ./scripts/ws-run"
+    "preversion": "lerna run build --since"
   },
-  "dependencies": {},
   "devDependencies": {
     "lerna": "^3.22.1",
     "prettier": "^2.1.2",

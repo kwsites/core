@@ -1,11 +1,10 @@
 {
   "name": "@kwsites/math-sum",
   "version": "2.1.0",
-  "main": "./src/index",
+  "main": "./dist/index",
+  "typings": "./dist/index",
   "publishConfig": {
-    "access": "public",
-    "main": "./dist/index",
-    "typings": "./dist/index"
+    "access": "public"
   },
   "description": "Gets the sum of values",
   "author": "Steve King <steve@mydev.co>",

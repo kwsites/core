@@ -1,6 +1,6 @@
 {
   "name": "@kwsites/moog-require",
-  "version": "2.4.0",
+  "version": "2.6.0",
   "main": "./src/index",
   "publishConfig": {
     "access": "public"

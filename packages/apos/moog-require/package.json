@@ -1,0 +1,32 @@
+{
+  "name": "@kwsites/moog-require",
+  "version": "2.4.0",
+  "main": "./src/index",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Replacement for `moog-require` with added support for TypeScript modules",
+  "author": "Steve King <steve@mydev.co>",
+  "contributors": [
+    {
+      "name": "Steve King",
+      "email": "steve@mydev.co"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "apostrophe",
+    "moog",
+    "modules"
+  ],
+  "repository": "git://github.com/kwsites/core.git",
+  "dependencies": {
+    "debug": "^4.2.0",
+    "glob": "^7.1.6",
+    "import-fresh": "^3.2.2",
+    "lodash": "^4.17.20",
+    "moog": "^1",
+    "resolve": "^1.19.0",
+    "resolve-from": "^5.0.0"
+  }
+}

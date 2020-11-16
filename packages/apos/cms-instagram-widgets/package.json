@@ -10,6 +10,9 @@
       "email": "steve@mydev.co"
     }
   ],
+  "scripts": {
+    "test": "jest --coverage"
+  },
   "files": [
     "index.js",
     "lib/**/*.*",

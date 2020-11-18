@@ -107,6 +107,12 @@ Options passed into the module configuration in your `app.js`:
 - `errorTTL: number = 1200`
   sets the duration (in seconds) to wait before reattempting to load a profile gallery that returned an error.
 
+- `embed: { source: 'inline' | 'env'; token: string }`
+  configure the instagram oembed app token to pass to instagram on request
+  
+- `offline: boolean`
+  optionally disable the gallery view by setting offline to `true`
+
 ## Offline Mode
 
 Set the global `apos.options.locals.offline` to `true` by adding `offline: true` to your `data/local.js` to prevent

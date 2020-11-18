@@ -38,7 +38,7 @@ module.exports = (self) => {
          return null;
       }
 
-      if (self.isWorkingOffline()) {
+      if (self.isWorkingOffline(req)) {
          log('loadGallery: %s: loading gallery disabled when working offline');
          return null;
       }

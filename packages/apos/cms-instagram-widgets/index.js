@@ -75,7 +75,8 @@ module.exports = {
    },
 
    construct(self, options) {
-      self.isWorkingOffline = () => get(self, 'apos.options.locals.offline') === true;
+      self.isWorkingOffline = (req) =>
+         get(self, 'apos.options.locals.offline') === true || self.getOption(req, 'offline');
       self.getAuthConfig = (req) => self.getOption(req, 'auth');
       self.getEmbedConfig = (req) => self.getOption(req, 'embed');
 

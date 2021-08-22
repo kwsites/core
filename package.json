@@ -20,5 +20,8 @@
     "lerna": "^3.22.1",
     "prettier": "^2.1.2",
     "typescript": "^4.0.3"
+  },
+  "resolutions": {
+    "re2": "^1.16.0"
   }
 }
